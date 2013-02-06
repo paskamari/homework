@@ -30,3 +30,10 @@ header section.menu-h{
 	float						:	right;
 	outline						:	1px dashed red;
 }
+section.slider{
+	width: 960px;
+	min-height: 290px;
+	margin:0 auto;
+	outline: 1px dashed blue;
+	
+}
