@@ -6,7 +6,7 @@
 	width						:	960px;
 	min-height					:	1200px;
 	margin						:	0px auto;
-	background-image			:	url('backguid.jpg');
+	background-image			:	url('image/backguid.jpg');
 	background-repeat			:	no-repeat;
 	outline						:	1px dashed black;
 }
@@ -31,9 +31,19 @@ header section.menu-h{
 	outline						:	1px dashed red;
 }
 section.slider{
-	width: 960px;
-	min-height: 290px;
-	margin:0 auto;
-	outline: 1px dashed blue;
-	
+	width						:	960px;
+	min-height					:	290px;
+	margin						:	0px auto;
+	outline						:	1px dashed blue;
+}
+section.contain{
+	width						:	700px;
+	min-height					:	585px;
+	margin						:	0px auto;
+	outline						:	1px dashed blue;
+}
+footer{
+	width						:	960px;
+	min-height					:	270px;
+	outline						:	1px dashed yellow;
 }
