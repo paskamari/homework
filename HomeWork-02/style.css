@@ -2,9 +2,16 @@
 	margin: 0px;
 	padding: 0px;
 }
+
 .container{
 	min-height: 500px;
 	background-image: url('image/backsite.jpg');
 	background-repeat: no-repeat;
+}
+
+.outl{
 	outline: dashed 1px red;
+}
+.logo{
+	height:104px;
 }
