@@ -1,80 +1,104 @@
 *{
-	padding						:	0px;
-	margin						:	0px;
+	padding										:	0px;
+	margin										:	0px;
 }
 
 .container{
-	width						:	960px;
-	min-height					:	1200px;
-	margin						:	10px auto;
-	background-image			:	url('../../store/image/backguid.jpg');
-	background-repeat			:	no-repeat;
-	outline						:	1px dashed black;
-	padding-top					:	1px;
+	width										:	960px;
+	min-height									:	1200px;
+	margin										:	10px auto;
+	background-image							:	url('../../store/image/backguid.jpg');
+	background-repeat							:	no-repeat;
+	outline										:	1px dashed black;
+	padding-top									:	1px;
 }
 
 header{
-	width						: 	650px;
-	min-height					:	48px;
-	margin						:	1px auto ;
-	padding-top					:	1px ;
-	outline						:	1px dashed red;
+	width										: 	650px;
+	min-height									:	48px;
+	margin										:	1px auto ;
+	padding-top									:	1px ;
+	outline										:	1px dashed red;
 }
 
 header section.logo-h{
-	width						:	75px;
-	min-height					:	40px;
-	margin						: 	3px 0px 3px 10px ;
-	float						:	left;
-	outline						:	1px dashed black;
+	width										:	75px;
+	min-height									:	40px;
+	margin										: 	3px 0px 3px 10px ;
+	float										:	left;
+	outline										:	1px dashed black;
 }
 
 header section.menu-h{
-	min-height					:	40px;
-	margin						: 	3px 10px 3px 210px ;	
-	outline						:	1px dashed black;
+	min-height									:	40px;
+	margin										: 	3px 10px 3px 210px ;	
+	outline										:	1px dashed black;
 }
 
 section.slider{
-	width						:	960px;
-	min-height					:	285px;
-	margin						:	1px auto;
-	outline						:	1px dashed blue;
+	width										:	960px;
+	min-height									:	285px;
+	margin										:	1px auto;
+	outline										:	1px dashed blue;
 }
 
 section.contain{
-	width						:	700px;
-	min-height					:	580px;
-	margin						:	5px auto;
-	padding-top					:	1px ;
-	outline						:	1px dashed red;
+	width										:	700px;
+	min-height									:	580px;
+	margin										:	5px auto;
+	padding-top									:	1px ;
+	outline										:	1px dashed red;
 	
 }
 
 section.contain .header-c{
-	width						:	620px;
-	min-height					:	65px;
-	margin						:	30px auto 0px;
-	outline						:	1px dashed blue;
-	padding-top					:	1px;
+	width										:	620px;
+	min-height									:	65px;
+	margin										:	30px auto 0px;
+	outline										:	1px dashed blue;
+	padding-top									:	1px;
 }
 
 section.contain .header-c .right-header-c{
-	width						:	112px;
-	min-height					:	34px;
-	float						:	right;
-	margin						:	15px 20px 15px 0px;
-	outline						:	1px dashed red;
+	width										:	112px;
+	min-height									:	34px;
+	float										:	right;
+	margin										:	15px 20px 15px 0px;
+	outline										:	1px dashed red;
 }
 
 section.contain .header-c .left-header-c{
-	min-height					:	45px;
-	margin						:	10px 150px 5px 10px;
-	outline						:	1px dashed red;
+	min-height									:	45px;
+	margin										:	10px 150px 5px 10px;
+	outline										:	1px dashed red;
+}
+
+section.contain .center-c{
+	width										:	650px;
+	min-height									:	160px;
+	margin										:	30px auto 0px;
+	outline										:	1px dashed red;
+	padding-top									:	1px;
+}
+
+section.contain .center-c .host{
+	width										:	150px;
+	min-height									:	120px;
+	float										:	left;
+	margin										:	20px 0px 20px 8px;
+	outline										:	1px dashed blue;
+	padding-top									:	1px;
+}
+
+section.contain .center-c .guest{
+	min-height									:	120px;
+	margin										:	20px 8px 20px 482px;
+	outline										:	1px dashed green;
+	padding-top									:	1px;
 }
 
 footer{
-	width						:	960px;
-	min-height					:	265px;
-	outline						:	1px dashed yellow;
+	width										:	960px;
+	min-height									:	265px;
+	outline										:	1px dashed red;
 }
