@@ -54,7 +54,7 @@ section.contain{
 section.contain .header-c{
 	width										:	620px;
 	min-height									:	65px;
-	margin										:	30px auto 0px;
+	margin										:	30px auto 0px auto;
 	outline										:	1px dashed blue;
 	padding-top									:	1px;
 }
@@ -76,7 +76,7 @@ section.contain .header-c .left-header-c{
 section.contain .center-c{
 	width										:	650px;
 	min-height									:	160px;
-	margin										:	30px auto 0px;
+	margin										:	30px auto 0px auto;
 	outline										:	1px dashed red;
 	padding-top									:	1px;
 }
@@ -87,15 +87,27 @@ section.contain .center-c .host{
 	float										:	left;
 	margin										:	20px 0px 20px 8px;
 	outline										:	1px dashed blue;
-	padding-top									:	1px;
 }
 
 section.contain .center-c .guest{
 	min-height									:	120px;
 	margin										:	20px 8px 20px 482px;
 	outline										:	1px dashed green;
-	padding-top									:	1px;
 }
+
+.badboy{
+	width										: 	0px !important;
+	min-height									: 	0px !important;
+	float										:	none !important;
+}
+
+section.contain .bottom-c{
+	width										:	650px;
+	min-height									:	260px;
+	margin										:	0 auto;
+	outline										:	1px dashed blue;
+}
+
 
 footer{
 	width										:	960px;
