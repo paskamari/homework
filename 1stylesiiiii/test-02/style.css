@@ -1,0 +1,22 @@
+.container{
+	background-image:url('../../store/image/test-02.jpg');
+	background-repeat:no-repeat;
+	background-position:top center;
+	min-height:1000px;
+	outline:1px dashed gray;
+}
+
+.container *{
+	outline:1px dashed red;
+}
+
+
+.container * > * {
+	outline:1px dashed blue;
+}
+
+
+.container * > * *{
+	outline:1px dashed green;
+}
+
