@@ -91,22 +91,32 @@ section.contain .center-c .host{
 
 section.contain .center-c .guest{
 	min-height									:	120px;
-	margin										:	20px 8px 20px 482px;
+	margin										:	20px 8px 0px 482px;
 	outline										:	1px dashed green;
 }
 
-.badboy{
-	width										: 	0px !important;
-	min-height									: 	0px !important;
-	float										:	none !important;
+section.contain .bottom-c{
+	width										:	670px;
+	min-height									:	250px;
+	margin										:	10px auto;
+	outline										:	1px dashed blue;
+	padding-top									:	1px;
 }
 
-section.contain .bottom-c{
-	width										:	650px;
-	min-height									:	260px;
-	margin										:	0 auto;
+section.contain .bottom-c .left-bottom-c{
+	width										:	480px;
+	min-height									:	230px;
+	float										:	left;
+	margin										:	10px 5px;
+	outline										:	1px dashed red;
+}
+
+section.contain .bottom-c .right-bottom-c{
+	min-height									:	230px;
+	margin										:	10px 10px 10px 495px;
 	outline										:	1px dashed blue;
 }
+
 
 
 footer{
