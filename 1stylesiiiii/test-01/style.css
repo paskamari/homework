@@ -4,20 +4,33 @@
 }
 
 .container{
-	min-height							: 	1262px;
-	background-image					: 	url('../../store/image/backsite.jpg');
+	width								:	970px;
+	background-image					: 	url('../../store/image/backguid.jpg');
 	background-repeat					: 	no-repeat;
+	background-position					:	center top;
+	outline: 1px dashed gray;
 }
 
-.outl{
-	outline								: 	dashed 1px red;
+.container > * {
+	outline								:	1px dashed blue;
 }
+
+.container > * > * {
+	outline								:	2px dotted red;
+}
+
+.container > * > * * {
+	outline								:	2px dashed green;
+}
+
 header{
-	min-height							: 	150px;
+	margin								:	8px 0px;
 }
-.logo{
-	min-height							:	104px;
+
+header > *{
+	margin								:	5px 0px;
 }
+
 .head-menu{
 	min-height							: 	45px;
 }
