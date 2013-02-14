@@ -104,20 +104,65 @@ section.contain .bottom-c{
 }
 
 section.contain .bottom-c .left-bottom-c{
-	width										:	480px;
+	width										:	482px;
 	min-height									:	230px;
 	float										:	left;
 	margin										:	10px 5px;
 	outline										:	1px dashed red;
+	padding-top									:	1px;
+}
+
+section.contain .bottom-c .left-bottom-c .titr{
+	width										:	470px;
+	min-height									:	25px;
+	margin										:	1px auto;
+	outline										:	1px dashed blue;
+}
+
+section.contain .bottom-c .left-bottom-c .host1{
+	width										:	154px;
+	min-height									:	180px;
+	float										:	left;
+	margin										:	5px 0px 5px 15px;
+	outline										:	1px dashed green;
+}
+
+section.contain .bottom-c .left-bottom-c .host2{
+	width										:	150px;
+	min-height									:	180px;
+	float										:	left;
+	margin										:	5px 0px 5px 5px;
+	outline										:	1px dashed green;
+}
+
+section.contain .bottom-c .left-bottom-c .host3{
+	width										:	148px;
+	min-height									:	180px;
+	float										:	left;
+	margin										:	5px 0px 5px 5px;
+	outline										:	1px dashed green;
 }
 
 section.contain .bottom-c .right-bottom-c{
 	min-height									:	230px;
 	margin										:	10px 10px 10px 495px;
 	outline										:	1px dashed blue;
+	padding-top									:	1px;
 }
 
+section.contain .bottom-c .right-bottom-c .titr{
+	width										:	150px;
+	min-height									:	25px;
+	margin										:	1px auto;
+	outline										:	1px dashed red;
+}
 
+section.contain .bottom-c .right-bottom-c .host{
+	width										:	150px;
+	min-height									:	190px;	
+	margin										:	6px auto;
+	outline										:	1px dashed red;
+}
 
 footer{
 	width										:	960px;
