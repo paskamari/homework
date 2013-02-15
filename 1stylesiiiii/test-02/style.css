@@ -2,7 +2,6 @@
 	background-image:url('../../store/image/test-02.jpg');
 	background-repeat:no-repeat;
 	background-position:top center;
-	min-height:1000px;
 	outline:1px dashed gray;
 }
 
@@ -22,4 +21,8 @@
 
 header{
 	width:940px;
+}
+
+.contain{
+	margin-top:3px;
 }
