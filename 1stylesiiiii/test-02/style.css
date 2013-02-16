@@ -1,3 +1,7 @@
+body{
+	background-color: #FAFAFA;
+}
+
 .container{
 	background-image								:	url('../../store/image/test-02.jpg');
 	background-repeat								:	no-repeat;
@@ -21,7 +25,7 @@
 
 
 .container * > * > * *{
-	outline											:	1px dashed red;
+	outline											:	1px dashed orange;
 }
 
 header{
