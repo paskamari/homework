@@ -3,32 +3,30 @@
 	padding								: 	0px;
 }
 
-.container{
-	width								:	970px;
+body{
 	background-image					: 	url('../../store/image/test-01.jpg');
 	background-repeat					: 	no-repeat;
 	background-position					:	center top;
-	outline: 1px dashed gray;
 }
 
-.container > * {
-	outline								:	1px dashed blue;
+body{
+	outline								: 	1px dashed blue;
 }
 
-.container > * > * {
-	outline								:	2px dotted red;
+body > * {
+	outline								:	1px dashed red;
 }
 
-.container > * > * * {
-	outline								:	2px dashed green;
+body > * > * {
+	outline								:	1px dotted green;
 }
 
-header{
-	margin								:	8px 0px;
+body > * > * *{
+	outline								:	1px dashed black;
 }
 
 header > *{
-	margin								:	5px 0px;
+	margin								:	10px 0px;
 }
 
 .head-menu{
