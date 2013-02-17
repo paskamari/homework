@@ -1,0 +1,86 @@
+*{
+	margin				: 	0px;
+	padding				: 	0px;
+}
+div.container{
+	width				: 	950px;
+	margin				:	0 auto;
+	background-image	: 	url('../../store/image/test-03.jpg');
+	background-repeat	: 	no-repeat;
+}
+header{
+	min-height			:	140px;
+	opacity				: 	0.5;
+	padding				:	1px 0;
+	background-color	:	darkgray;
+}
+div.contain{
+	min-height			:	525px;
+	padding-top			:	1px;
+	background-color	:	yellow;
+	opacity				:	0.5;
+}
+footer{
+	padding				:	20px 0px 0px 0px;
+	background-color	:	darkred;
+	opacity				:	0.5;
+}
+.badboy{
+	clear				:	both;
+	width				: 	0px !important;
+	min-height			:	0px !important;
+	float				: 	none !important;
+	overflow			:	hidden;
+	
+}
+/*Header*/
+header>section.leftpanel{
+	float				: 	left;
+	margin-top			:	20px;
+	width				: 	380px;
+	min-height			: 	100px;
+	opacity				:	0.5;
+	background-color	:	darkorange;
+}
+header>section.rightpanel{
+	float				: 	right;
+	margin-top			:	20px;
+	width				: 	380px;
+	min-height			: 	100px;
+	background-color	:	darkblue;
+}
+header>section.logo{
+	min-height			: 	130px;
+	width				: 	140px;
+	margin				:	5px auto;
+	background-color	: 	darkgreen;
+}
+/*div.contain*/
+div.contain>section.leftcontain{
+	width				:	550px;
+	min-height			:	500px;
+	float				:	left;
+	background-color	:	black;
+}
+div.contain>section.rightcontain{
+	width				:	400px;
+	min-height			:	500px;
+	margin-left			:	auto;	
+	background-color	:	darkgreen;
+}
+/*footer*/
+footer>section.image{
+	width				:	100%;
+	min-height			:	75px;
+	background-color	:	#000;
+}
+footer>section.fmenu{
+	width				:	100%;
+	min-height			:	50px;
+	background-color	:	#CCC;
+}
+footer>section.copyright{
+	width				:	100%;
+	min-height			:	50px;
+	background-color	:	#555;
+}
