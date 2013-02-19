@@ -29,6 +29,10 @@ header > *{
 	margin								:	10px 0px;
 }
 
+header li{
+	list-style							:	none;
+}
+
 .head-menu{
 	min-height							: 	45px;
 }
