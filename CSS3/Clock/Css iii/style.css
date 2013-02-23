@@ -1,0 +1,23 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+div.clock{
+	width: 600px;
+	height: 600px;
+	margin:auto;
+	position: absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	background-image: url('image/clockface.jpg');
+	background-repeat: no-repeat;
+}
+section.hour{
+	width: 600px;
+	height: 600px;
+	background-image: url('image/hourhand.png');
+	background-repeat: no-repeat;
+	background-position:center;	
+}
