@@ -11,7 +11,7 @@ div.clock{
 	left										:	0px;
 	bottom										:	0px;
 	right										:	0px;
-	background-image							:	url('image/clockface.jpg');
+	background-image							:	url('../../../store/image/image-clock/clockface.jpg');
 	background-repeat							:	no-repeat;
 	overflow									:	hidden:
 }
@@ -28,7 +28,7 @@ div.clock{
 section.hour{
 	width										:	600px;
 	height										:	600px;
-	background-image							:	url('image/hourhand.png');
+	background-image							:	url('../../../store/image/image-clock/hourhand.png');
 	background-repeat							:	no-repeat;
 	background-position							:	center;
 	position									:	absolute;
@@ -39,7 +39,7 @@ section.hour{
 section.minute{
 	width										:	600px;
 	height										:	600px;
-	background-image							:	url('image/minhand.png');
+	background-image							:	url('../../../store/image/image-clock/minhand.png');
 	background-repeat							:	no-repeat;
 	background-position							:	center;
 	position									:	absolute;
@@ -50,7 +50,7 @@ section.minute{
 section.second{
 	width										:	600px;
 	height										:	600px;
-	background-image							:	url('image/sechand.png');
+	background-image							:	url('../../../store/image/image-clock/sechand.png');
 	background-repeat							:	no-repeat;
 	background-position							:	center;
 	position									:	absolute;
