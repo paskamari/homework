@@ -14,12 +14,35 @@ div.container{
 }
 
 @-webkit-keyframes rotate{
-	0%{-webkit-transform						:	rotate(200deg);}
+	0%{
+		-webkit-transform						:	rotate(200deg);
+	   	opacity: 1	;	
+	    }
 }
+/*
+@-webkit-keyframes scale{
+	0%{
+		-webkit-transform						:	rotate(200deg);
+	    opacity: 0;
+	}
+	100%{
+	
+		-webkit-transform						:	rotate(0deg);
+	    -webkit-transform						:	scale(50%);
+	    opacity: 1	;	
+
+	}
+}
+*/
+
+
 
 .bg{
 	position: absolute;
 	margin:auto;
+	height: 100px;
+	opacity: .5;
+	
 }
 
 .ghab1{
@@ -28,10 +51,21 @@ div.container{
 	right: 0;
 	top:0;
 	bottom:0;
-	-webkit-transform:rotate(50deg);
-	-webkit-animation							:	rotate 5s ;
+	z-index: 4;
+	-webkit-transform:rotate(30deg);
+	-webkit-animation							:	rotate 1s ;
+}
+/*.ghab1:hover{
+	background-color: red;
+	left: 100;
+	right: 0;
+	top:0;
+	bottom:0;
+	z-index: 10;
+	-webkit-animation							:	scale 1s ;	
 }
 
+*/
 
 .ghab2{
 	background-color: darkorange;
@@ -39,8 +73,9 @@ div.container{
 	right: 100;
 	top:0;
 	bottom:0;
+	z-index: 3;
 	-webkit-transform:rotate(50deg);
-	-webkit-animation							:	rotate 5s ;
+	-webkit-animation							:	rotate 3s ;
 }
 
 .ghab3{
@@ -49,7 +84,8 @@ div.container{
 	right: 0;
 	top:100;
 	bottom:0;
-	-webkit-transform:rotate(50deg);
+	z-index: 2;
+	-webkit-transform:rotate(70deg);
 	-webkit-animation							:	rotate 5s ;
 }
 
@@ -59,6 +95,7 @@ div.container{
 	right: 0;
 	top:0;
 	bottom:100;
-	-webkit-transform:rotate(50deg);
-	-webkit-animation							:	rotate 5s ;
+	z-index: 1;
+	-webkit-transform:rotate(90deg);
+	-webkit-animation							:	rotate 7s ;
 }
