@@ -13,6 +13,8 @@
 	margin:100px;
 	background-color: darkgreen;
 	border-radius:100px;
+	text-align: center;
+	line-height:100px;
 	-moz-transition:-moz-transform 1000ms;
 	-moz-animation-name:rot;
 	-moz-animation-duration:9s;
@@ -88,6 +90,8 @@
 	width:100px;
 	height:100px;
 	margin:100px;
+	text-align: center;
+	line-height:100px;
 	float:right;
 	background-color: red;
 	-moz-transition:-moz-transform 1000ms;
