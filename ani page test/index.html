@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pages Animation Sample</title>
+	<link rel="stylesheet" type="text/css" href="1styles.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	<div class="container">
+		<nav>
+			<menu class="cover">
+				<li onclick="document.getElementById('aniHelper').className='page1';">about us</li>
+				<li onclick="document.getElementById('aniHelper').className='page2';">resume</li>
+				<li onclick="document.getElementById('aniHelper').className='page3';">portfolio</li>
+				<li onclick="document.getElementById('aniHelper').className='page4';">contact us</li>
+			</menu>
+		</nav>
+		<div id="aniHelper" class="page1">
+			<section class="pages aboutus"></section>
+			<section class="pages resume"></section>
+			<section class="pages portfolio"></section>
+			<section class="pages contactus"></section>
+		</div>
+	</div>
+</body>
+</html>

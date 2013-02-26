@@ -1,0 +1,76 @@
+.container{
+	width: 900px;
+	position: relative;
+	overflow: hidden;
+	height: 800px;
+}
+nav menu{
+	padding: 0;
+	margin: 20px auto 0;
+	width: 355px;
+}
+nav menu li{
+	float: left;
+	padding: 12px 7px;
+	background-color: darkorange;
+	color: #FFF;
+	margin-left: 2px;
+	cursor: pointer;
+}
+nav menu li:first-child{
+	margin-left: 0;
+}
+section.pages{
+	width: 900px;
+	height: 600px;
+	position: absolute;
+	-webkit-transition: all 1500ms;
+	-moz-transition: all 1500ms;
+}
+section.pages.aboutus{
+	background-color: hsl(60,15%,80%);
+	left: -1000px;
+	top: 70px;
+	-webkit-transform: rotate(90deg);
+	-webkit-transform-origin: left top;
+	-moz-transform: rotate(90deg);
+	-moz-transform-origin: left top;
+}
+.page1 section.pages.aboutus{
+	left: 0px;
+	top: 70px;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+}
+section.pages.resume{
+	background-color: hsl(120,15%,80%);
+	left: -220;
+	top: -800px;
+}
+.page2 section.pages.resume{
+	left: 0;
+	top: 70px;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg)
+	
+}
+section.pages.portfolio{
+	background-color: hsl(180,15%,80%);
+	left: 1000px;
+	top: 70px;
+}
+.page3 section.pages.portfolio{
+	left: 0;
+	top: 70px;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg)
+}
+section.pages.contactus{
+	background-color: hsl(240,15%,80%);
+	left: 0;
+	top: 70px;
+	opacity: 0;
+}
+.page4 section.pages.contactus{
+	opacity: 1;
+}
