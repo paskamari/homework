@@ -1,23 +1,23 @@
 <html>
 <head>
-	<title>clock js</title>
+	<title>clock js iiiii</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div id="clock">
-		<div id="hrhand"></div>
-		<div id="minhand"></div>
-		<div id="sechand"></div>
+	<div class="clock">
+		<section id="hour"></section>
+		<section id="minute"></section>
+		<section id="second"></section>
 	</div>
 <script>
 	window.setInterval(function(){
-  		var saat = new Date();
-		var s = saat.getSeconds();
-		var m = saat.getMinutes();
-		var h = saat.getHours();
-		document.getElementById('sechand').style['-webkit-transform'] = 'rotate(' + (s*6) + 'deg)';
-		document.getElementById('minhand').style['-webkit-transform'] = 'rotate(' + (m*6) + 'deg)';
-		document.getElementById('hrhand').style['-webkit-transform'] = 'rotate(' + (h*30) + 'deg)';
+  		var clock = new Date();
+		var s = clock.getSeconds();
+		var m = clock.getMinutes();
+		var h = clock.getHours();
+		document.getElementById('second').style['-webkit-transform'] = 'rotate(' + (s*6) + 'deg)';
+		document.getElementById('minute').style['-webkit-transform'] = 'rotate(' + (m*6) + 'deg)';
+		document.getElementById('hour').style['-webkit-transform'] = 'rotate(' + (h*30) + 'deg)';
 	}, 1);
 </script>
 </body>

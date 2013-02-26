@@ -2,23 +2,29 @@
 	padding: 0;
 	margin: 0;
 }
-div#clock{
-	background-image: url("image/clockface.jpg");
-	background-repeat: no-repeat;
+div.clock{
 	height: 600px;
 	width: 600px;
-	position: relative;
+	margin										:	auto;
+	position									:	absolute;
+	top											:	0px;
+	left										:	0px;
+	bottom										:	0px;
+	right										:	0px;
+	background-image							:	url('../../../store/image/image-clock/clockface.jpg');
+	background-repeat							:	no-repeat;
+	overflow									:	hidden:
 }
-div#hrhand{
-	background-image: url("image/hourhand.png");
+section#hour{
+	background-image: url("../../../store/image/image-clock/hourhand.png");
 	background-repeat: no-repeat;
 	min-height: 600px;
 	width: 30px;
 	position: absolute;
 	left: 285px;
 }
-div#minhand{
-	background-image: url("image/minhand.png");
+section#minute{
+	background-image: url("../../../store/image/image-clock/minhand.png");
 	background-repeat: no-repeat;
 	min-height: 600px;
 	width: 30px;
@@ -26,8 +32,8 @@ div#minhand{
 	position: absolute;
 	left: 285px;
 }
-div#sechand{
-	background-image: url("image/sechand.png");
+section#second{
+	background-image: url("../../../store/image/image-clock/sechand.png");
 	background-repeat: no-repeat;
 	min-height: 600px;
 	width: 30px;
