@@ -3,12 +3,16 @@
 	margin										:	0px;
 }
 
+body{
+	background-image							:	url('../../store/image/test-01.jpg');
+	background-repeat							:	no-repeat;
+	background-position							:	center top;
+}
+
 .container{
 	width										:	960px;
 	min-height									:	1200px;
 	margin										:	10px auto;
-	background-image							:	url('../../store/image/test-01.jpg');
-	background-repeat							:	no-repeat;
 	outline										:	1px dashed black;
 	padding-top									:	1px;
 }
