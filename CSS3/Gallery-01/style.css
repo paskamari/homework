@@ -15,7 +15,7 @@ div.container{
 
 @-webkit-keyframes rotate{
 	0%{
-		-webkit-transform						:	rotate(200deg);
+		-webkit-transform						:	rotate(360deg);
 	   	opacity: 1	;	
 	    }
 }
@@ -75,7 +75,7 @@ div.container{
 	bottom:0;
 	z-index: 3;
 	-webkit-transform:rotate(50deg);
-	-webkit-animation							:	rotate 3s ;
+	-webkit-animation							:	rotate 2s ;
 }
 
 .ghab3{
@@ -86,7 +86,7 @@ div.container{
 	bottom:0;
 	z-index: 2;
 	-webkit-transform:rotate(70deg);
-	-webkit-animation							:	rotate 5s ;
+	-webkit-animation							:	rotate 3s ;
 }
 
 .ghab4{
@@ -97,5 +97,5 @@ div.container{
 	bottom:100;
 	z-index: 1;
 	-webkit-transform:rotate(90deg);
-	-webkit-animation							:	rotate 7s ;
+	-webkit-animation							:	rotate 4s ;
 }
