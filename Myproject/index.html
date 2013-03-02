@@ -1,13 +1,36 @@
 <html>
 <head>
 	<title>My Project</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="../store/common-files/1styles.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-<div class="container">
-
-
+<div id="profile" class="input menu">
+	<section class="click">
+		<img src="../store/image/felesh.png" width="40px" height="40px" 
+		onclick="document.getElementById('profile').className='output';">
+	</section>
+	<nav>
+		<menu class="cover">
+			<li onclick="document.getElementById('aniHelper').className='page1';">about us</li>
+			<li onclick="document.getElementById('aniHelper').className='page2';">resume</li>
+			<li onclick="document.getElementById('aniHelper').className='page3';">portfolio</li>
+			<li onclick="document.getElementById('aniHelper').className='page4';">contact us</li>
+		</menu>
+	</nav>
 
 </div>
+
+
+
+<div class="container">
+	<div id="aniHelper" class="page1">
+		<section class="pages aboutus"></section>
+		<section class="pages resume"></section>
+		<section class="pages portfolio"></section>
+		<section class="pages contactus"></section>
+	</div>
+</div>
+
 </body>
 </html>
