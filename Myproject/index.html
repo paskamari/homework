@@ -5,10 +5,18 @@
 	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-<div id="profile" class="input menu">
-	<section class="click">
-		<img src="../store/image/felesh.png" width="40px" height="40px" 
-		onclick="document.getElementById('profile').className='output';">
+<div id="profile" class="input">
+	<section id="btn" class="clickin menu">
+		<img src="../store/image/felesh.png" width="40px" height="40px" onclick="
+			if(document.getElementById('profile').className =='input'){
+				document.getElementById('profile').className='output';
+				document.getElementById('btn').className='clickout menu';
+			}else if(document.getElementById('profile').className =='output'){
+				document.getElementById('profile').className='input';
+				document.getElementById('btn').className='clickin menu';
+			}
+			
+		">
 	</section>
 	<nav>
 		<menu class="cover">

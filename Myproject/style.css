@@ -1,18 +1,37 @@
 .menu{
 	-webkit-transition: all 1500ms;
 }
+@-webkit-keyframes inout{
+	0%{
+		left:-130px;
+	}
+	100%{
+		left:0px;
+	}
+}
+@-webkit-keyframes outin{
+	0%{
+		left:0px;
+	}
+	100%{
+		left:-130px;
+	}
+}
 .input{
 	width:130px;
 	min-height:100px;
 	position: absolute;
 	top:200px;
-	left:-130px;
+	left:-130;
+	-webkit-transition:-webkit-transform 1000ms;
+	-webkit-animation:outin 800ms ;
 }
 .output{
 	width:130px;
 	min-height:100px;
 	top:200px;
-	left:0px;
+	-webkit-transition:-webkit-transform 1000ms;
+	-webkit-animation:inout 800ms ;
 	position: absolute;
 }
 nav menu{
@@ -31,7 +50,7 @@ nav menu li:last-child{
 }
 
 
-.click{
+.clickin{
 	width:40px;
 	height: 40px;
 	position: absolute;
@@ -40,7 +59,13 @@ nav menu li:last-child{
 	cursor: pointer;
 	-webkit-transform: rotateZ(270deg);
 }
-.click:hover{
+.clickout{
+	width:40px;
+	height: 40px;
+	position: absolute;
+	left:130px;
+	top:10px;
+	cursor: pointer;
 	-webkit-transform: rotateZ(90deg);
 }
 
