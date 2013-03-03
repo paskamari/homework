@@ -7,4 +7,32 @@ body{
 	background-color: rgb(22, 153, 74);
 }
 
-.container{}
+.container{
+	width:940px;
+	min-height:600px;
+	margin:100px auto 0px;
+	border:2px solid gray;
+}
+
+.test{
+	width:150px;
+	height:150px;
+	background-color: red;
+	margin:0px 50px 50px 0px;
+	float:left;
+	text-align:center;
+	line-height:150px;
+}
+
+.rotate{
+	-webkit-transform:rotate(50deg);
+}
+.rotateX{
+	-webkit-transform:rotateX(50deg);
+}
+.rotateY{
+	-webkit-transform:rotateY(50deg);
+}
+.radius{
+	-webkit-border-radius:25px;
+}
