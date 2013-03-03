@@ -8,10 +8,9 @@ body{
 }
 
 .container{
-	width:940px;
+	width:200px;
 	min-height:600px;
 	margin:100px auto 0px;
-	border:2px solid gray;
 }
 
 .test{
@@ -19,19 +18,26 @@ body{
 	height:150px;
 	background-color: red;
 	margin:0px 50px 50px 0px;
-	float:left;
 	text-align:center;
 	line-height:150px;
+	-webkit-transition:color 800ms;
+}
+.test:hover{
+	color:#FFF;
 }
 
 .rotate{
-	-webkit-transform:rotate(50deg);
+	-webkit-transform:  rotate(50deg);
+	background-color: darkmagenta;
 }
 .rotateX{
-	-webkit-transform:rotateX(50deg);
+	-webkit-transform: perspective( 400px )rotateX(50deg);
+	-webkit-perspective:400px;
+	background-color: darkblue;
 }
 .rotateY{
-	-webkit-transform:rotateY(50deg);
+	-webkit-transform: perspective( 400px ) rotateY(50deg);
+	background-color: darkred;	    
 }
 .radius{
 	-webkit-border-radius:25px;
