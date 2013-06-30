@@ -95,6 +95,8 @@ nav menu li:last-child{
 section.pages{
 	width: 900px;
 	height: 600px;
+		outline:1px dashed red;
+
 	-webkit-border-radius: 50px;
 	        border-radius: 50px;
 	position: absolute;

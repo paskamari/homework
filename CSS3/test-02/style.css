@@ -32,7 +32,6 @@ body{
 }
 .rotateX{
 	-webkit-transform: perspective( 400px )rotateX(50deg);
-	-webkit-perspective:400px;
 	background-color: darkblue;
 }
 .rotateY{
