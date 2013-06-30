@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<title>Slider</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+
+<div class="container">
+	<div class="slideshow">
+		<div class="train">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<div class="btns">
+			<div>
+				<div class="overoff">A1</div>
+				<div class="overon">B1</div>
+			</div>
+			<div>
+				<div class="overoff">A2</div>
+				<div class="overon">B2</div>
+			</div>
+			<div>
+				<div class="overoff">A3</div>
+				<div class="overon">B3</div>
+			</div>
+			<div>
+				<div class="overoff">A4</div>
+				<div class="overon">B4</div>
+			</div>
+			<div>
+				<div class="overoff">A5</div>
+				<div class="overon">B5</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+ 
+<script>
+/*jshint strict:true, noarg:true, noempty:true, eqeqeq:true, bitwise:true, undef:true, unused:true, nonew:true, browser:true, devel:true, boss:true, curly:false, immed:false, latedef:true, newcap:true, plusplus:false, trailing:true, debug:false, asi:false, evil:false, expr:true, eqnull:false, esnext:false, funcscope:false, globalstrict:false, loopfunc:false */
+(function(){
+	"use strict";
+	var
+		i = 0,
+		indexItem = 0,
+	  	train = document.querySelector('.train'),
+	 	Wagon = document.querySelectorAll('.train div'),
+	  	btns = document.querySelectorAll('.btns > div'),
+	  	slide = function(n){
+	 		if(n>btns.length-1) n=0;
+			train.style.top=(-500*n)+'px';
+			btns.item(indexItem).className = '';
+			btns.item(n).className = 'select';
+			indexItem=n;
+	  	},
+	  	autoSlide = function(){
+			slide(indexItem+1);
+		};
+
+	btns.item(indexItem).className = 'select';
+
+	function rnd(a,b){
+		return Math.floor(Math.random()*(b-a+1))+a;
+	}
+
+	function randColor(h,s,l){
+		return "hsl("+h+","+s+"%,"+l+"%)";
+	}
+
+	for(i=0;i<Wagon.length;i++){
+		Wagon.item(i).style.backgroundColor = randColor(rnd(0,360),rnd(60,95),rnd(40,70));
+	}
+	
+	setInterval(autoSlide,2500);
+})();
+</script>
+
+</body>
+</html>
