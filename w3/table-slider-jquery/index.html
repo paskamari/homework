@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Slider</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="jquery-1.9.1.min.js" ></script>
+	<script type="text/javascript" src="tableScript.js" ></script>
+</head>
+<body>
+
+	<div class="showmenu">
+		<script type="text/javascript">
+
+			for(var i = 0 ; i< tr ; i++){
+			    document.write('<ul class="btns">');
+			    for(var j = 0 ; j< td ; j++){
+					document.write("<li></li>");
+			    }
+			    document.write('</ul>');
+			}
+
+		</script>
+	</div>
+
+	<div class="nonepage"></div>
+	<div class="blockpage">
+		<div class="container">
+
+			<ul class="pager">
+				<li class="pagerPos btnclose"><img src="close.png" width="30px" height="30px" title="Exit" /></li>
+				<li class="pagerPos topCenter"><img src="next.png" width="30px" height="30px" title="Top" /></li>
+				<li class="pagerPos rightCenter"><img src="next.png" width="30px" height="30px" title="Right" /></li>
+				<li class="pagerPos bottomCenter"><img src="next.png" width="30px" height="30px" title="Bottom" /></li>
+				<li class="pagerPos leftCenter"><img src="next.png" width="30px" height="30px" title="Left" /></li>
+			</ul>
+
+			<div class="slideshow">
+				<div class="train">
+					<script type="text/javascript">
+
+	    				for(var i = 0 ; i< tr ; i++){
+						    document.write('<ul>');
+						    for(var j = 0 ; j< td ; j++){
+								document.write('<li class="boxs"></li>');
+						    }
+						    document.write('</ul>');
+						}
+
+					</script>
+				</div>				
+			</div>
+			
+		</div>
+	</div>
+	<script type="text/javascript" src="jq.js" ></script>
+	<script type="text/javascript" src="script.js" ></script>
+</body>
+</html>

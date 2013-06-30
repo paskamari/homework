@@ -1,0 +1,96 @@
+body{
+  background-color: lightgray;
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  width: 960px;
+  margin:0 auto;
+}
+
+.slideshow{
+  width: 600px;
+  height: 500px;
+  border-radius: 50px 0px 0px 50px;
+  overflow: hidden;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin:50px auto 0;
+}
+
+.train{
+  width: 500px;
+  height: 2500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
+}
+.train div{
+  width: 500px;
+  height: 500px;
+  border-radius: 50px;
+}
+
+.btns{
+  width: 40px;
+  height: 300px;
+  position: absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  margin: auto;
+}
+
+.btns > div{
+  width:40px;
+  height:40px;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 15px;
+  cursor:pointer;
+  -webkit-transition:all 200ms;
+  -moz-transition:all 200ms;
+}
+
+.btns div.overoff,
+.btns div.overon{
+	width: inherit;
+	min-height: inherit;
+	border-radius: 5px;
+	-webkit-transition:all 800ms;
+	-webkit-backface-visibility:hidden;
+}
+
+div.overoff{
+	background-color: darkmagenta;
+	color: white;
+	position: absolute;
+}
+
+div.overon{
+	background-color: darkblue;
+	color: white;
+	-webkit-transform:rotateY(180deg);
+}
+
+.select div.overoff{
+	-webkit-transform:rotateY(-180deg);
+}
+
+.select div.overon{
+	-webkit-transform:rotate(0deg);
+}
+.btns > div:hover div.overoff{
+	-webkit-transform:rotateY(-180deg);
+}
+
+.btns > div:hover div.overon{
+	-webkit-transform:rotate(0deg);
+}
